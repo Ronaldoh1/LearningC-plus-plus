@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F2CB0B8D1BD7A90200432562 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CB0B8C1BD7A90200432562 /* main.m */; };
+		F2CB0B991BD8138900432562 /* firstProgram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2CB0B971BD8138900432562 /* firstProgram.cpp */; settings = {ASSET_TAGS = (); }; };
+		F2CB0B9C1BD8463600432562 /* gallonToLiters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2CB0B9A1BD8463600432562 /* gallonToLiters.cpp */; settings = {ASSET_TAGS = (); }; };
+		F2CB0B9F1BD850C300432562 /* addition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2CB0B9D1BD850C300432562 /* addition.cpp */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +26,12 @@
 
 /* Begin PBXFileReference section */
 		F2CB0B891BD7A90200432562 /* FirstCPPFile */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FirstCPPFile; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2CB0B8C1BD7A90200432562 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F2CB0B971BD8138900432562 /* firstProgram.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = firstProgram.cpp; path = ../firstProgram.cpp; sourceTree = "<group>"; };
+		F2CB0B981BD8138900432562 /* firstProgram.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = firstProgram.hpp; path = ../firstProgram.hpp; sourceTree = "<group>"; };
+		F2CB0B9A1BD8463600432562 /* gallonToLiters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = gallonToLiters.cpp; path = ../gallonToLiters.cpp; sourceTree = "<group>"; };
+		F2CB0B9B1BD8463600432562 /* gallonToLiters.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = gallonToLiters.hpp; path = ../gallonToLiters.hpp; sourceTree = "<group>"; };
+		F2CB0B9D1BD850C300432562 /* addition.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = addition.cpp; sourceTree = "<group>"; };
+		F2CB0B9E1BD850C300432562 /* addition.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = addition.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +64,12 @@
 		F2CB0B8B1BD7A90200432562 /* FirstCPPFile */ = {
 			isa = PBXGroup;
 			children = (
-				F2CB0B8C1BD7A90200432562 /* main.m */,
+				F2CB0B971BD8138900432562 /* firstProgram.cpp */,
+				F2CB0B981BD8138900432562 /* firstProgram.hpp */,
+				F2CB0B9A1BD8463600432562 /* gallonToLiters.cpp */,
+				F2CB0B9B1BD8463600432562 /* gallonToLiters.hpp */,
+				F2CB0B9D1BD850C300432562 /* addition.cpp */,
+				F2CB0B9E1BD850C300432562 /* addition.hpp */,
 			);
 			path = FirstCPPFile;
 			sourceTree = "<group>";
@@ -118,7 +130,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2CB0B8D1BD7A90200432562 /* main.m in Sources */,
+				F2CB0B9C1BD8463600432562 /* gallonToLiters.cpp in Sources */,
+				F2CB0B9F1BD850C300432562 /* addition.cpp in Sources */,
+				F2CB0B991BD8138900432562 /* firstProgram.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
