@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F2CB0B991BD8138900432562 /* firstProgram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2CB0B971BD8138900432562 /* firstProgram.cpp */; settings = {ASSET_TAGS = (); }; };
-		F2CB0B9C1BD8463600432562 /* gallonToLiters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2CB0B9A1BD8463600432562 /* gallonToLiters.cpp */; settings = {ASSET_TAGS = (); }; };
-		F2CB0B9F1BD850C300432562 /* addition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2CB0B9D1BD850C300432562 /* addition.cpp */; settings = {ASSET_TAGS = (); }; };
+		F2BD65B21BDB01B600D189F3 /* namePrinter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD65B01BDB01B600D189F3 /* namePrinter.cpp */; };
+		F2BD65B51BDB0B7A00D189F3 /* EscapeSequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD65B31BDB0B7A00D189F3 /* EscapeSequence.cpp */; };
+		F2BD65B81BDB37E400D189F3 /* PositiveOrNegative.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD65B61BDB37E400D189F3 /* PositiveOrNegative.cpp */; };
+		F2BD65BB1BDB39E900D189F3 /* FindTheLargestNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD65B91BDB39E900D189F3 /* FindTheLargestNumber.cpp */; };
+		F2CB0B991BD8138900432562 /* firstProgram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2CB0B971BD8138900432562 /* firstProgram.cpp */; };
+		F2CB0B9C1BD8463600432562 /* gallonToLiters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2CB0B9A1BD8463600432562 /* gallonToLiters.cpp */; };
+		F2CB0BA21BD8531100432562 /* SwapTwoNumbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2CB0BA01BD8531100432562 /* SwapTwoNumbers.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,13 +29,21 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F2BD65B01BDB01B600D189F3 /* namePrinter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = namePrinter.cpp; sourceTree = "<group>"; };
+		F2BD65B11BDB01B600D189F3 /* namePrinter.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = namePrinter.hpp; sourceTree = "<group>"; };
+		F2BD65B31BDB0B7A00D189F3 /* EscapeSequence.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EscapeSequence.cpp; sourceTree = "<group>"; };
+		F2BD65B41BDB0B7A00D189F3 /* EscapeSequence.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = EscapeSequence.hpp; sourceTree = "<group>"; };
+		F2BD65B61BDB37E400D189F3 /* PositiveOrNegative.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PositiveOrNegative.cpp; sourceTree = "<group>"; };
+		F2BD65B71BDB37E400D189F3 /* PositiveOrNegative.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PositiveOrNegative.hpp; sourceTree = "<group>"; };
+		F2BD65B91BDB39E900D189F3 /* FindTheLargestNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FindTheLargestNumber.cpp; sourceTree = "<group>"; };
+		F2BD65BA1BDB39E900D189F3 /* FindTheLargestNumber.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FindTheLargestNumber.hpp; sourceTree = "<group>"; };
 		F2CB0B891BD7A90200432562 /* FirstCPPFile */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FirstCPPFile; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2CB0B971BD8138900432562 /* firstProgram.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = firstProgram.cpp; path = ../firstProgram.cpp; sourceTree = "<group>"; };
 		F2CB0B981BD8138900432562 /* firstProgram.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = firstProgram.hpp; path = ../firstProgram.hpp; sourceTree = "<group>"; };
 		F2CB0B9A1BD8463600432562 /* gallonToLiters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = gallonToLiters.cpp; path = ../gallonToLiters.cpp; sourceTree = "<group>"; };
 		F2CB0B9B1BD8463600432562 /* gallonToLiters.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = gallonToLiters.hpp; path = ../gallonToLiters.hpp; sourceTree = "<group>"; };
-		F2CB0B9D1BD850C300432562 /* addition.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = addition.cpp; sourceTree = "<group>"; };
-		F2CB0B9E1BD850C300432562 /* addition.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = addition.hpp; sourceTree = "<group>"; };
+		F2CB0BA01BD8531100432562 /* SwapTwoNumbers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SwapTwoNumbers.cpp; sourceTree = "<group>"; };
+		F2CB0BA11BD8531100432562 /* SwapTwoNumbers.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SwapTwoNumbers.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,8 +80,16 @@
 				F2CB0B981BD8138900432562 /* firstProgram.hpp */,
 				F2CB0B9A1BD8463600432562 /* gallonToLiters.cpp */,
 				F2CB0B9B1BD8463600432562 /* gallonToLiters.hpp */,
-				F2CB0B9D1BD850C300432562 /* addition.cpp */,
-				F2CB0B9E1BD850C300432562 /* addition.hpp */,
+				F2CB0BA01BD8531100432562 /* SwapTwoNumbers.cpp */,
+				F2CB0BA11BD8531100432562 /* SwapTwoNumbers.hpp */,
+				F2BD65B01BDB01B600D189F3 /* namePrinter.cpp */,
+				F2BD65B11BDB01B600D189F3 /* namePrinter.hpp */,
+				F2BD65B61BDB37E400D189F3 /* PositiveOrNegative.cpp */,
+				F2BD65B91BDB39E900D189F3 /* FindTheLargestNumber.cpp */,
+				F2BD65BA1BDB39E900D189F3 /* FindTheLargestNumber.hpp */,
+				F2BD65B71BDB37E400D189F3 /* PositiveOrNegative.hpp */,
+				F2BD65B31BDB0B7A00D189F3 /* EscapeSequence.cpp */,
+				F2BD65B41BDB0B7A00D189F3 /* EscapeSequence.hpp */,
 			);
 			path = FirstCPPFile;
 			sourceTree = "<group>";
@@ -130,9 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2BD65B81BDB37E400D189F3 /* PositiveOrNegative.cpp in Sources */,
+				F2CB0BA21BD8531100432562 /* SwapTwoNumbers.cpp in Sources */,
+				F2BD65B21BDB01B600D189F3 /* namePrinter.cpp in Sources */,
 				F2CB0B9C1BD8463600432562 /* gallonToLiters.cpp in Sources */,
-				F2CB0B9F1BD850C300432562 /* addition.cpp in Sources */,
 				F2CB0B991BD8138900432562 /* firstProgram.cpp in Sources */,
+				F2BD65BB1BDB39E900D189F3 /* FindTheLargestNumber.cpp in Sources */,
+				F2BD65B51BDB0B7A00D189F3 /* EscapeSequence.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +273,7 @@
 				F2CB0B921BD7A90200432562 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
