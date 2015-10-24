@@ -11,6 +11,9 @@
 		F2BD65B51BDB0B7A00D189F3 /* EscapeSequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD65B31BDB0B7A00D189F3 /* EscapeSequence.cpp */; };
 		F2BD65B81BDB37E400D189F3 /* PositiveOrNegative.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD65B61BDB37E400D189F3 /* PositiveOrNegative.cpp */; };
 		F2BD65BB1BDB39E900D189F3 /* FindTheLargestNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD65B91BDB39E900D189F3 /* FindTheLargestNumber.cpp */; };
+		F2BD65BE1BDB3E0800D189F3 /* MultiplicationTables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD65BC1BDB3E0800D189F3 /* MultiplicationTables.cpp */; };
+		F2BD65C11BDB43F500D189F3 /* FindTheFactorial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD65BF1BDB43F500D189F3 /* FindTheFactorial.cpp */; };
+		F2BD65C41BDB5B5100D189F3 /* SwitchStatements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD65C21BDB5B5100D189F3 /* SwitchStatements.cpp */; };
 		F2CB0B991BD8138900432562 /* firstProgram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2CB0B971BD8138900432562 /* firstProgram.cpp */; };
 		F2CB0B9C1BD8463600432562 /* gallonToLiters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2CB0B9A1BD8463600432562 /* gallonToLiters.cpp */; };
 		F2CB0BA21BD8531100432562 /* SwapTwoNumbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2CB0BA01BD8531100432562 /* SwapTwoNumbers.cpp */; };
@@ -37,6 +40,12 @@
 		F2BD65B71BDB37E400D189F3 /* PositiveOrNegative.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PositiveOrNegative.hpp; sourceTree = "<group>"; };
 		F2BD65B91BDB39E900D189F3 /* FindTheLargestNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FindTheLargestNumber.cpp; sourceTree = "<group>"; };
 		F2BD65BA1BDB39E900D189F3 /* FindTheLargestNumber.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FindTheLargestNumber.hpp; sourceTree = "<group>"; };
+		F2BD65BC1BDB3E0800D189F3 /* MultiplicationTables.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MultiplicationTables.cpp; sourceTree = "<group>"; };
+		F2BD65BD1BDB3E0800D189F3 /* MultiplicationTables.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MultiplicationTables.hpp; sourceTree = "<group>"; };
+		F2BD65BF1BDB43F500D189F3 /* FindTheFactorial.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FindTheFactorial.cpp; sourceTree = "<group>"; };
+		F2BD65C01BDB43F500D189F3 /* FindTheFactorial.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FindTheFactorial.hpp; sourceTree = "<group>"; };
+		F2BD65C21BDB5B5100D189F3 /* SwitchStatements.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SwitchStatements.cpp; sourceTree = "<group>"; };
+		F2BD65C31BDB5B5100D189F3 /* SwitchStatements.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SwitchStatements.hpp; sourceTree = "<group>"; };
 		F2CB0B891BD7A90200432562 /* FirstCPPFile */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FirstCPPFile; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2CB0B971BD8138900432562 /* firstProgram.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = firstProgram.cpp; path = ../firstProgram.cpp; sourceTree = "<group>"; };
 		F2CB0B981BD8138900432562 /* firstProgram.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = firstProgram.hpp; path = ../firstProgram.hpp; sourceTree = "<group>"; };
@@ -86,6 +95,12 @@
 				F2BD65B11BDB01B600D189F3 /* namePrinter.hpp */,
 				F2BD65B61BDB37E400D189F3 /* PositiveOrNegative.cpp */,
 				F2BD65B91BDB39E900D189F3 /* FindTheLargestNumber.cpp */,
+				F2BD65BC1BDB3E0800D189F3 /* MultiplicationTables.cpp */,
+				F2BD65BF1BDB43F500D189F3 /* FindTheFactorial.cpp */,
+				F2BD65C01BDB43F500D189F3 /* FindTheFactorial.hpp */,
+				F2BD65C21BDB5B5100D189F3 /* SwitchStatements.cpp */,
+				F2BD65C31BDB5B5100D189F3 /* SwitchStatements.hpp */,
+				F2BD65BD1BDB3E0800D189F3 /* MultiplicationTables.hpp */,
 				F2BD65BA1BDB39E900D189F3 /* FindTheLargestNumber.hpp */,
 				F2BD65B71BDB37E400D189F3 /* PositiveOrNegative.hpp */,
 				F2BD65B31BDB0B7A00D189F3 /* EscapeSequence.cpp */,
@@ -152,11 +167,14 @@
 			files = (
 				F2BD65B81BDB37E400D189F3 /* PositiveOrNegative.cpp in Sources */,
 				F2CB0BA21BD8531100432562 /* SwapTwoNumbers.cpp in Sources */,
+				F2BD65BE1BDB3E0800D189F3 /* MultiplicationTables.cpp in Sources */,
+				F2BD65C11BDB43F500D189F3 /* FindTheFactorial.cpp in Sources */,
 				F2BD65B21BDB01B600D189F3 /* namePrinter.cpp in Sources */,
 				F2CB0B9C1BD8463600432562 /* gallonToLiters.cpp in Sources */,
 				F2CB0B991BD8138900432562 /* firstProgram.cpp in Sources */,
 				F2BD65BB1BDB39E900D189F3 /* FindTheLargestNumber.cpp in Sources */,
 				F2BD65B51BDB0B7A00D189F3 /* EscapeSequence.cpp in Sources */,
+				F2BD65C41BDB5B5100D189F3 /* SwitchStatements.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
