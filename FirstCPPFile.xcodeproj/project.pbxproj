@@ -14,6 +14,7 @@
 		F2BD65BE1BDB3E0800D189F3 /* MultiplicationTables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD65BC1BDB3E0800D189F3 /* MultiplicationTables.cpp */; };
 		F2BD65C11BDB43F500D189F3 /* FindTheFactorial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD65BF1BDB43F500D189F3 /* FindTheFactorial.cpp */; };
 		F2BD65C41BDB5B5100D189F3 /* SwitchStatements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD65C21BDB5B5100D189F3 /* SwitchStatements.cpp */; };
+		F2BD65C71BDB871900D189F3 /* Functions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD65C51BDB871900D189F3 /* Functions.cpp */; };
 		F2CB0B991BD8138900432562 /* firstProgram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2CB0B971BD8138900432562 /* firstProgram.cpp */; };
 		F2CB0B9C1BD8463600432562 /* gallonToLiters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2CB0B9A1BD8463600432562 /* gallonToLiters.cpp */; };
 		F2CB0BA21BD8531100432562 /* SwapTwoNumbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2CB0BA01BD8531100432562 /* SwapTwoNumbers.cpp */; };
@@ -46,6 +47,8 @@
 		F2BD65C01BDB43F500D189F3 /* FindTheFactorial.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FindTheFactorial.hpp; sourceTree = "<group>"; };
 		F2BD65C21BDB5B5100D189F3 /* SwitchStatements.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SwitchStatements.cpp; sourceTree = "<group>"; };
 		F2BD65C31BDB5B5100D189F3 /* SwitchStatements.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SwitchStatements.hpp; sourceTree = "<group>"; };
+		F2BD65C51BDB871900D189F3 /* Functions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Functions.cpp; sourceTree = "<group>"; };
+		F2BD65C61BDB871900D189F3 /* Functions.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Functions.hpp; sourceTree = "<group>"; };
 		F2CB0B891BD7A90200432562 /* FirstCPPFile */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FirstCPPFile; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2CB0B971BD8138900432562 /* firstProgram.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = firstProgram.cpp; path = ../firstProgram.cpp; sourceTree = "<group>"; };
 		F2CB0B981BD8138900432562 /* firstProgram.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = firstProgram.hpp; path = ../firstProgram.hpp; sourceTree = "<group>"; };
@@ -100,6 +103,8 @@
 				F2BD65C01BDB43F500D189F3 /* FindTheFactorial.hpp */,
 				F2BD65C21BDB5B5100D189F3 /* SwitchStatements.cpp */,
 				F2BD65C31BDB5B5100D189F3 /* SwitchStatements.hpp */,
+				F2BD65C51BDB871900D189F3 /* Functions.cpp */,
+				F2BD65C61BDB871900D189F3 /* Functions.hpp */,
 				F2BD65BD1BDB3E0800D189F3 /* MultiplicationTables.hpp */,
 				F2BD65BA1BDB39E900D189F3 /* FindTheLargestNumber.hpp */,
 				F2BD65B71BDB37E400D189F3 /* PositiveOrNegative.hpp */,
@@ -169,6 +174,7 @@
 				F2CB0BA21BD8531100432562 /* SwapTwoNumbers.cpp in Sources */,
 				F2BD65BE1BDB3E0800D189F3 /* MultiplicationTables.cpp in Sources */,
 				F2BD65C11BDB43F500D189F3 /* FindTheFactorial.cpp in Sources */,
+				F2BD65C71BDB871900D189F3 /* Functions.cpp in Sources */,
 				F2BD65B21BDB01B600D189F3 /* namePrinter.cpp in Sources */,
 				F2CB0B9C1BD8463600432562 /* gallonToLiters.cpp in Sources */,
 				F2CB0B991BD8138900432562 /* firstProgram.cpp in Sources */,
